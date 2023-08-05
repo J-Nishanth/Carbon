@@ -1,1 +1,16 @@
 /* Add application styles & imports to this file! */
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100%;
+}
+.top-container {
+  background: var(
+    --linear,
+    linear-gradient(113deg, #082930 0%, #015567 35.42%, #032130 100%)
+  );
+  width: 100%;
+  height: auto;
+}
